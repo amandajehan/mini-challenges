@@ -15,10 +15,12 @@ func main() {
 		var isSquare bool = false
 		var isCube bool = false
 
+        // Square root check
 		if numSqrt == float64(int(numSqrt)) {
 			isSquare = true
 		}
 
+        // Cube root check
 		if numCbrt == float64(int(numCbrt)) {
 			isCube = true
 		}
